@@ -75,30 +75,30 @@ function App() {
         <h2 className="text-danger text-center"> Pour plus d'informations, veuillez laisser vos coordonnées</h2>
         <Form>
         <Form.Group className="mb-2" controlId="formFirstName">
-        <Form.Label>First Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter First Name" />
+        <Form.Label>Prénom</Form.Label>
+        <Form.Control type="text" placeholder="Mettez votre prénom" />
       </Form.Group>
 
       <Form.Group className="mb-2" controlId="formLastName">
-        <Form.Label>Last Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter Last Name" />
+        <Form.Label>Nome</Form.Label>
+        <Form.Control type="text" placeholder="Mettez votre nom" />
       </Form.Group>
 
       <Form.Group className="mb-2" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Label>Adresse Mail</Form.Label>
+        <Form.Control type="email" placeholder="Mettez votre adresse mail" />
         <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
+          Nous n'allons pas partager votre adresse mail.
         </Form.Text>
       </Form.Group>
 
       <Form.Group className="mb-2" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Label>Mot de passe</Form.Label>
+        <Form.Control type="password" placeholder="Entrez votre mot de passe" />
       </Form.Group>
 
       <Form.Group className="mb-2" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check type="checkbox" label="J'accepte de recevoir des email de promotion de la part de GomyCode" />
       </Form.Group>
       <div class="d-grid gap-2">
         <Button variant="primary" type="submit">
